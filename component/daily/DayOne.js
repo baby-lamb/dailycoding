@@ -1,6 +1,8 @@
 import React from 'react';
 
 
+//마우스 오버 이벤트
+
 function DayOne extends Component {
   render(){
     return (
@@ -19,5 +21,6 @@ function DayOne extends Component {
     );
   }
 }
+
 
 export default DayOne;
