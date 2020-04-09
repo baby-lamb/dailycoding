@@ -8,10 +8,10 @@ import './component/daily/DayFour';
 function DailyContents() {
   return (
     <div className="DailyContents">
-      <DayOne>
-      <DayTwo>
-      <DayThree>
-      <DayFour>
+      <DayOne></DayOne>
+      <DayTwo></DayTwo>
+      <DayThree></DayThree>
+      <DayFour></DayFour>
     </div>
   );
 }
