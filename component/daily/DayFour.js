@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-//마우스 오버 이벤트
+//라디오 버튼
 
 class DayFour extends Component {
   constructor(props){
