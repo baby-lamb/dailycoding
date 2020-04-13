@@ -14,7 +14,10 @@ function App() {
   }
   return (
     <div className="App">
-      <NumberMenu data={this.props.number}></NumerMenu>
+      <NumberMenu data={this.props.number}
+      onChangePage={function(){
+        alert('no');
+      }.bind(this)}></NumerMenu>
       <DailyContents></DailyContents>
     </div>
   );
