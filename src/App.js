@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import './component/NumberMenu';
-import './component/DailyContents';
+import NumberMenu from './component/NumberMenu';
+// import './component/DailyContents';
 
-function App() {
+class App extends React.Component {
   constructor(props){
+    super(props);
     this.state={
       number:[
         { id:1 },
@@ -12,15 +13,14 @@ function App() {
       ]
     }
   }
-  return (
-    <div className="App">
-      <NumberMenu data={this.props.number}
-      onChangePage={function(){
-        alert('no');
-      }.bind(this)}></NumerMenu>
-      <DailyContents></DailyContents>
-    </div>
-  );
+  render(){
+    return(
+        <div className="App">
+            <NumberMenu data={this.props.number}></NumberMenu>
+        </div>
+      );
+  }
 }
+
 
 export default App;

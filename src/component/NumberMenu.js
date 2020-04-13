@@ -1,26 +1,25 @@
 import React from 'react';
-import './component/NumberMenu.css';
+import './NumberMenu.css';
 
 
-function NumberMenu() {
+class NumberMenu extends React.Component {
   render(){
     const number = [];
-    const menu = this.props.number;
-    let = 0;
+    let i = 0;
     while ( i < number.langth ){
-      number.push(<li key={number[i].id}><a href={"/components/"+number[i].id}">
+      number.push(<li key={number[i].id}><a href={"/components/"+number[i].id}>
       {number[i].id}
       </a></li>)
-
       i = i+1;
     }
 
-    return (
+    return(
       <div className="NumberMenu">
 
       </div>
     );
   }
 }
+
 
 export default NumberMenu;
