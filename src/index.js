@@ -1,8 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state={
+      number:[
+        { id:0, title:'Main'},
+        { id:1, title:'Day One'},
+        { id:2, title:'Day Two' }
+      ]
+    }
+  }
+  render(){
+    if(this.state.mode === 'main'){
+
+    }else if(this.state === ''){
+
+
+    }
+    return(
+        <div className="App">
+            <NumberMenu data={this.props.number}></NumberMenu>
+        </div>
+      );
+  }
+}
+
+
+export default App;
+
 
 ReactDOM.render(
   <React.StrictMode>
