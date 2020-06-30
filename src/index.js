@@ -24,6 +24,7 @@ class App extends React.Component {
     return(
         <div className="App">
             <NumberMenu data={this.props.number}></NumberMenu>
+            
         </div>
       );
   }

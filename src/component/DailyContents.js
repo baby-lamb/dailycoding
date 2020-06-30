@@ -9,9 +9,7 @@ function DailyContents() {
   return (
     <div className="DailyContents">
       <DayOne></DayOne>
-      <DayTwo></DayTwo>
-      <DayThree></DayThree>
-      <DayFour></DayFour>
+
     </div>
   );
 }
