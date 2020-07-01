@@ -9,7 +9,7 @@ function DailyContents() {
   return (
     <div className="DailyContents">
       <DayOne></DayOne>
-
+      <DayTwo></DayTwo>
     </div>
   );
 }
