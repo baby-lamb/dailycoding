@@ -12,6 +12,7 @@ class App extends React.Component {
         { id:1, title:'Day One'},
         { id:2, title:'Day Two' }
         { id:3, title:'Day Tree' }
+        { id:4, title:'Day four'}
       ]
     }
   }
