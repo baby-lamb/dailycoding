@@ -8,7 +8,8 @@ class App extends React.Component {
   render(){
     return(
     <HeaderMenu></HeaderMenu>
-
+    <></>
+    <FooterArea></FooterArea>
     )
   }
 }
