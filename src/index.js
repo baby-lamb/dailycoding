@@ -10,6 +10,7 @@ class App extends React.Component {
     <HeaderMenu></HeaderMenu>
     <></>
     <FooterArea></FooterArea>
+    <></>
     )
   }
 }
